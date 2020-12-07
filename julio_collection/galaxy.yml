@@ -16,7 +16,7 @@ readme: README.md
 # A list of the collection's content authors. Can be just the name or in the format 'Full Name <email> (url)
 # @nicks:irc/im.site#channel'
 authors:
-- your name <example@domain.com>
+- "Julio Perez"
 
 
 ### OPTIONAL but strongly recommended
@@ -40,7 +40,8 @@ tags: []
 # collection label 'namespace.name'. The value is a version range
 # L(specifiers,https://python-semanticversion.readthedocs.io/en/latest/#requirement-specification). Multiple version
 # range specifiers can be set and are separated by ','
-dependencies: {'azure.azcollection'}
+dependencies:
+  "azure.azcollection": "*"
 
 # The URL of the originating SCM repository
 repository: http://example.com/repository
